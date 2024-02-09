@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const fs = require('fs');
 const app = express();
 const path = require('path');
-const teachersPath = path.join(__dirname, '..', 'database', 'teachers.json');
+const teachersPath = path.join(__dirname, '..', 'teachers.json');
 const Userschema = zod.object({
     //id name age dob classes
     id: zod.number(),
