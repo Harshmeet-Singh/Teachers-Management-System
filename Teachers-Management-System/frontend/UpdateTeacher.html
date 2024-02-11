@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <title>Update</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4CAF50;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #f4f4f4;
+        }
+
+        input {
+            width: 80%;
+            padding: 8px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: #f4f4f4;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Update a Teacher's Record</h1>
+    <form action="updateTeacher" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" placeholder="YYYY-MM-DD" required><br><br><br>
+
+        <label for="newName">New Name:</label>
+        <input type="text" id="newName" name="newName" required><br>
+
+        <label for="newAge">New Age:</label>
+        <input type="number" id="newAge" name="newAge" required><br>
+
+        <label for="newDob">New Date of Birth:</label>
+        <input type="date" id="newDob" name="newDob" placeholder="YYYY-MM-DD" required><br>
+
+        <label for="newClasses">New Number of Classes:</label>
+        <input type="number" id="newClasses" name="newClasses" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

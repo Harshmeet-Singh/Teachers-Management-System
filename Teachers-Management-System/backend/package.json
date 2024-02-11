@@ -1,0 +1,19 @@
+{
+  "name": "teacher_management_sys",
+  "version": "1.0.0",
+  "description": "a app to manage all records of the teachers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Harshmeet Singh",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2"
+  }
+}
