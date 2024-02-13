@@ -1,1 +1,1 @@
-A simple user web-app showing CRUD operations
+A simple web-app to perform CRUD operations
